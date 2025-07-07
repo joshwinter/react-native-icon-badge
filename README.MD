@@ -3,8 +3,11 @@
 Hiển thị số lượng thông báo (**badge count**) trên **biểu tượng ứng dụng** cho cả **Android** và **iOS** trong React Native.
 
 > 📦 Tương thích với React Native 0.71+
+>
 > ✅ Android: dùng `NotificationCompat.setNumber()`
+>
 > ✅ iOS: dùng `UIApplication.shared.applicationIconBadgeNumber`
+
 
 ---
 
