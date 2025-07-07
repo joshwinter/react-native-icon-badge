@@ -1,0 +1,28 @@
+{
+  "name": "@thuong/react-native-icon-badge",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "types": "./index.ts",
+  "react-native": {
+    "android": "./android",
+    "ios": "./ios"
+  },
+  "files": [
+    "android",
+    "ios",
+    "index.ts",
+    "react-native-icon-badge.podspec"
+  ],
+  "keywords": [
+    "react-native",
+    "icon",
+    "badge",
+    "notification",
+    "android",
+    "ios"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.71.0"
+  }
+}
