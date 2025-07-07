@@ -22,6 +22,13 @@ Then for iOS:
 cd ios && pod install
 ```
 
+For Android (manual linking, if needed), add to your `settings.gradle`:
+
+```groovy
+include ':@thuong_react-native-icon-badge'
+project(':@thuong_react-native-icon-badge').projectDir = new File(rootProject.projectDir, '../node_modules/@thuong/react-native-icon-badge/android')
+```
+
 ---
 
 ## 🧠 Usage
