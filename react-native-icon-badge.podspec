@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "react-native-icon-badge"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Badge count on app icon for iOS and Android"
   s.author       = { "Thuong" => "hi@thuo.ng" }
   s.homepage     = "https://github.com/ltthuong/react-native-icon-badge"
