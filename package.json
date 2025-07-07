@@ -1,6 +1,6 @@
 {
   "name": "@thuong/react-native-icon-badge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.ts",
   "types": "./index.ts",
   "react-native": {
