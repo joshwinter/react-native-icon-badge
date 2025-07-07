@@ -1,23 +1,22 @@
 # @thuong/react-native-icon-badge
 
-Hiển thị số lượng thông báo (**badge count**) trên **biểu tượng ứng dụng** cho cả **Android** và **iOS** trong React Native.
+Display the **badge count** on the **app icon** for both **Android** and **iOS** in React Native.
 
-> 📦 Tương thích với React Native 0.71+
+> 📦 Compatible with React Native 0.71+
 >
-> ✅ Android: dùng `NotificationCompat.setNumber()`
+> ✅ Android: uses `NotificationCompat.setNumber()`
 >
-> ✅ iOS: dùng `UIApplication.shared.applicationIconBadgeNumber`
-
+> ✅ iOS: uses `UIApplication.shared.applicationIconBadgeNumber`
 
 ---
 
-## 🚀 Cài đặt
+## 🚀 Installation
 
 ```bash
 yarn add @thuong/react-native-icon-badge
 ```
 
-Sau đó, với iOS:
+Then for iOS:
 
 ```bash
 cd ios && pod install
@@ -25,10 +24,10 @@ cd ios && pod install
 
 ---
 
-## 🧠 Cách dùng
+## 🧠 Usage
 
 ```ts
 import { setBadgeCount } from '@thuong/react-native-icon-badge';
 
-setBadgeCount(5); // Hiển thị số 5 trên icon app
+setBadgeCount(5); // Display number 5 on the app icon
 ```
