@@ -9,4 +9,6 @@ Pod::Spec.new do |s|
   s.source       = { :path => "." }
   s.source_files = "ios/**/*.{swift,mm}"
   s.requires_arc = true
+
+  s.dependency "React-Core"
 end
